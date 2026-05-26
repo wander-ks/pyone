@@ -1,0 +1,21 @@
+# 约定式提交规范
+# 格式：<type>[optional scope]: <description>
+#
+# 类型(type)：
+# feat     新功能
+# fix      修复bug
+# docs     文档修改
+# style    格式调整（不影响代码逻辑）
+# refactor 重构（既不是新功能，也不是bug）
+# perf     性能优化
+# test     测试用例
+# chore    构建/工具/杂项修改
+#
+# 作用域(scope)：模块名、页面名、组件名（可选）
+# 描述(description)：简短、清晰、动词开头
+#
+# 示例：
+# feat(login): 增加短信验证
+# fix(order): 修复金额计算错误
+# refactor(core): 简化请求逻辑
+# chore: 打包配置优化
